@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+}
+
+h5 {
+  text-transform: uppercase;
+  color: #a1a1a1;
+  font-family: "Ubuntu", sans-serif;
+  padding: 10px 0;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #353535;
+  font-size: 200%;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 1px;
+  padding: 10px 0 20px 0;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/5651980.webp);
+  height: 100vh;
+  width: 100wh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.pf-img {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin: 30px;
+  margin-left: 100px;
+}
+
+.main-nav {
+  margin-top: 60px;
+  float: right;
+  list-style: none;
+  margin-right: 100px;
+}
+
+.main-nav li {
+  display: inline;
+  margin-right: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #f3ecec;
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+  letter-spacing: 2px;
+}
+
+.btn {
+  border: 2px solid rgb(122, 194, 134);
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  color: #f3ecec;
+  background-color: rgb(122, 194, 134);
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  color: #f3ecec;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+
+.btn-full:hover {
+  background-color: rgb(61, 133, 73);
+  border-color: rgb(61, 133, 73);
+}
+
+.btn-ghost:hover {
+  background-color: rgb(61, 133, 73);
+  border-color: rgb(61, 133, 73);
+}
+
+.icon-search {
+  margin-top: 10px;
+  color: #f3ecec;
+  font-size: 150%;
+  align-items: center;
+}
+
+.hero-content-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-85%, -30%);
+}
+
+.buttons {
+  margin-top: 60px;
+}
+
+.buttons a {
+  margin-right: 50px;
+}
+
+#name {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 250%;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+#prof {
+  font-family: "Bungee Outline", cursive;
+  font-size: 350%;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+#cont {
+  font-family: "Roboto", sans-serif;
+  font-size: 120%;
+  letter-spacing: 1px;
+}
+
+.section-about {
+  display: grid;
+  max-width: 1092px;
+  background-color: #ffffff;
+  margin: 80px auto;
+  grid-template-columns: auto auto;
+  column-gap: 80px;
+}
+
+.profile-picture {
+  grid-column: 1 / 2;
+}
+
+.profile-picture img {
+  height: 550px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.description {
+  padding: 40px 0 0 0;
+}
+
+.description p {
+  font-size: 120%;
+  letter-spacing: 1px;
+  color: #aaaaaa;
+  margin-bottom: 30px;
+}
+
+.credentials {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.credentials li {
+  margin: 10px;
+}
+.first {
+  letter-spacing: 1px;
+  font-size: 110%;
+  font-family: "Ubuntu", sans-serif;
+  color: #626262;
+}
+
+.second {
+  font-size: 110%;
+  font-family: "Rubix", sans-serif;
+  color: #aaaaaa;
+}
+
+.follow-me-on {
+  margin: 25px 0 25px 10px;
+}
+
+.follow-me-on p {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 110%;
+  font-family: "Ubuntu", sans-serif;
+  color: #626262;
+}
+
+.icon-sm-1 {
+  margin: 0 10px;
+  font-size: 110%;
+  text-align: center;
+  color: rgb(122, 194, 134);
+}
+
+.buttons-ds {
+  margin: 25px 0;
+}
+
+.buttons-ds a {
+  margin-right: 20px;
+}
+
+.btn-full-ds:link,
+.btn-full-ds:visited {
+  color: #f3ecec;
+  background-color: rgb(91, 128, 105);
+  padding: 20px;
+  border-color: rgb(91, 128, 105);
+  font-size: 80%;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  letter-spacing: 0;
+}
+
+.btn-ghost-ds:link,
+.btn-ghost-ds:visited {
+  color: #f3ecec;
+  background-color: rgb(122, 194, 134);
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 80%;
+  margin-top: 20px;
+  letter-spacing: 0;
+}
+
+.btn-full-ds:hover {
+  background-color: black;
+  border-color: rgb(61, 133, 73);
+  color: rgb(122, 194, 134);
+}
+
+.btn-ghost-ds:hover {
+  background-color: rgb(61, 133, 73);
+  border-color: rgb(61, 133, 73);
+}
